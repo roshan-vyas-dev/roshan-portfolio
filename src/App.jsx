@@ -1,21 +1,13 @@
-import Container from "./components/Container"
-import Navbar from "./components/Navbar"
-import Hero from "./sections/Hero"
-
+import Navbar from "./components/Navbar";
+import Hero from "./sections/Hero";
 
 function App() {
   return (
     <>
       <Navbar />
-
-      <Container>
-        <h1 className="text-4xl font-bold">Portfolio</h1>
-
-      </Container>
+      <Hero />
     </>
-  )
+  );
 }
 
-export default App
-
-
+export default App;
