@@ -4,9 +4,9 @@ function Hero() {
     return (
         <section>
             <Container>
-                <div className="py-24">
+                <div className="flex min-h-[calc(100vh-4rem)] flex-col justify-center py-16 lg:py-24">
                     {/* name */}
-                    <h1 className="text-5xl font-bold tracking-tight text-gray-900">
+                    <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl">
                         Roshan Vyas
                     </h1>
 
