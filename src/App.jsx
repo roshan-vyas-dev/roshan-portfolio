@@ -1,18 +1,21 @@
 import Container from "./components/Container"
 import Navbar from "./components/Navbar"
+import Hero from "./sections/Hero"
 
 
 function App() {
   return (
-  <>
-      <Navbar/>
-      
+    <>
+      <Navbar />
+
       <Container>
         <h1 className="text-4xl font-bold">Portfolio</h1>
-  
+
       </Container>
-  </>
+    </>
   )
 }
 
 export default App
+
+
