@@ -3,7 +3,7 @@ import Button from "../components/Button";
 
 function Hero() {
     return (
-        <section>
+        <section id="hero">
             <Container>
                 <div className="flex min-h-[calc(100vh-4rem)] flex-col justify-center py-16 lg:py-24">
                     {/* name */}
@@ -25,7 +25,7 @@ function Hero() {
                     </p>
 
                     {/* two buttons */}
-                    <div className="mt-10 flex items-center gap-4">
+                    <div className="mt-10 flex flex-col gap-4 sm:flex-row">
                         <Button>
                             View Projects
                         </Button>

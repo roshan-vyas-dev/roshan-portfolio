@@ -1,6 +1,9 @@
 
 
-function Button({ children, variant = "primary", className = "", }) {
+function Button({
+    children,
+    variant = "primary",
+    className = "", }) {
     const baseClasses =
         "rounded-lg px-5 py-3 text-sm font-medium transition-colors";
 
