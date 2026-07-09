@@ -1,4 +1,5 @@
 import Container from "../components/Container";
+import Button from "../components/Button";
 
 function Hero() {
     return (
@@ -25,13 +26,13 @@ function Hero() {
 
                     {/* two buttons */}
                     <div className="mt-10 flex items-center gap-4">
-                        <button className="rounded-lg bg-gray-900 px-5 py-3 text-sm font-medium text-white transition-colors hover:bg-gray-800">
+                        <Button>
                             View Projects
-                        </button>
+                        </Button>
 
-                        <button className="rounded-lg border border-gray-300 px-5 py-3 text-sm font-medium text-gray-900 transition-colors hover:bg-gray-100">
+                        <Button variant="secondary">
                             Download Resume
-                        </button>
+                        </Button>
                     </div>
 
                 </div>
