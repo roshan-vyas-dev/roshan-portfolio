@@ -26,7 +26,7 @@ function Hero() {
 
                     {/* two buttons */}
                     <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-                        <Button>
+                        <Button href="#projects">
                             View Projects
                         </Button>
 
