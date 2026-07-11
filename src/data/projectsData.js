@@ -15,7 +15,7 @@ const projectsData = [
     ],
     github: "#",
     liveDemo: "#",
-    image: studyRoomImage,
+    image: "",
   },
   {
     id: 2,
@@ -31,7 +31,7 @@ const projectsData = [
     ],
     github: "#",
     liveDemo: "#",
-    image: codeBuddyImage,
+    image: "",
   },
 ];
 
