@@ -4,6 +4,7 @@ import Button from "../components/Button";
 import ContactCard from "../components/ContactCard";
 import contactData from "../data/contactData";
 
+
 function Contact() {
     return (
         <section id="contact" className="py-24">
@@ -26,9 +27,11 @@ function Contact() {
                     {contactData.map((item) => (
                         <ContactCard
                             key={item.title}
+                            icon={item.icon}
                             title={item.title}
                             value={item.value}
                             link={item.link}
+                            
                         />
                     ))}
                 </div>
