@@ -27,6 +27,7 @@ const projectsData = [
       "Node.js",
       "Express",
       "MongoDB",
+      "JWT",
       "Tailwind CSS",
     ],
     github: "#",
