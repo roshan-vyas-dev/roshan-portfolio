@@ -3,6 +3,7 @@ function Button({
   variant = "primary",
   className = "",
   href,
+  newTab = false,
 }) {
   const baseClasses =
     "rounded-lg px-5 py-3 text-sm font-medium transition-colors";
@@ -17,7 +18,11 @@ function Button({
 
   if (href) {
     return (
-      <a href={href} className={classes}>
+      <a
+        href={href}
+        target={newTab ? "_blank" : undefined}
+        rel={newTab ? "noopener noreferrer" : undefined}
+        className={classes}>
         {children}
       </a>
     );

@@ -29,6 +29,7 @@ function Projects() {
                             techStack={project.techStack}
                             github={project.github}
                             liveDemo={project.liveDemo}
+                            image={project.image}
                         />
                     ))}
                 </div>

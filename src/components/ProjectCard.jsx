@@ -12,8 +12,14 @@ function ProjectCard({
     return (
         <div className="rounded-xl border border-gray-200 p-6 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
 
-            <div className="mb-6 flex h-56 items-center justify-center rounded-lg bg-gradient-to-br from-gray-100 to-gray-200 text-gray-500">
-                Project Image
+            <div className="mb-6 h-56 overflow-hidden rounded-lg">
+                
+                <img
+                    src={image}
+                    alt={title}
+                    className="h-full w-full object-cover"
+                />
+                
             </div>
 
             <h3 className="text-2xl font-bold text-gray-900">
@@ -35,14 +41,14 @@ function ProjectCard({
                 ))}
             </div>
             <div className="mt-6 flex flex-wrap gap-4">
-                <Button href={github}>
+                <Button href={github} newTab>
                     GitHub
                 </Button>
 
                 <Button
                     href={liveDemo}
                     variant="secondary"
-                >
+                    newTab>
                     Live Demo
                 </Button>
             </div>

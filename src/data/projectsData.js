@@ -1,3 +1,6 @@
+import codeBuddyImage from "../assets/projects/codebuddy.png";
+
+
 const projectsData = [
   {
     id: 1,
@@ -21,7 +24,7 @@ const projectsData = [
     id: 2,
     title: "CodeBuddy",
     description:
-      "A MERN application for sharing and managing code snippets with a clean and responsive user interface.",
+      "A full-stack MERN application that allows users to create, organize, edit, and manage code snippets securely with JWT authentication and a responsive user interface.",
     techStack: [
       "React",
       "Node.js",
@@ -29,10 +32,13 @@ const projectsData = [
       "MongoDB",
       "JWT",
       "Tailwind CSS",
+      "Groq API",
+      "Vercel",
+      "Render"
     ],
-    github: "#",
-    liveDemo: "#",
-    image: "",
+    github: "https://github.com/roshan-vyas-dev/codeBuddy",
+    liveDemo: "https://code-buddy-gules-eight.vercel.app",
+    image: codeBuddyImage,
   },
 ];
 
